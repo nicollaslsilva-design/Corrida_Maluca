@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(93, 6, 192);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.pista{
+    position: relative;
+    background: gray;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.faixa{
+    position: relative;
+    height: 110px;
+    border-bottom: 3px dashed white;
+}
+
+.carro {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 65px;
+    font-size: 50px;
+    transition: left 0.1s;
+}
+
+.chegada{
+    position: absolute;
+    right: 65px;
+    top: 0;
+    height: 100%;
+    border-left: 8px dashed yellow;
+}
+
+button {
+    background: rgb(147, 15, 255);
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover{
+    background: rgb(212, 0, 255);
+    transform: scale(1.05);
+}
